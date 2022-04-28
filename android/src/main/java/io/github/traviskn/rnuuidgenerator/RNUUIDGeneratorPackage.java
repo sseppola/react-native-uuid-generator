@@ -1,4 +1,4 @@
-package io.github.traviskn.rnuuidgenerator;
+package io.github.sseppola.rnuuidgenerator;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = package['license']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/Traviskn/react-native-uuid-generator.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sseppola/react-native-uuid-generator.git", :tag => "#{s.version}" }
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency 'React'

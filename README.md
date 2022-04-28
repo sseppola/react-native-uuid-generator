@@ -5,7 +5,11 @@
 A simple wrapper around the native iOS and Android UUID classes.
 Exposes a single method, `getRandomUUID`.
 
-![Example App Screen Capture](https://raw.githubusercontent.com/traviskn/react-native-uuid-generator/master/media/UUIDGenerator.gif)
+## Credit
+
+This is a fork of Traviskn's `react-native-uuid-generator`, as he seems (rather unresponsive these days)[https://github.com/Traviskn/react-native-uuid-generator/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc]. Thank you so much for your contribution!
+
+![Example App Screen Capture](https://raw.githubusercontent.com/sseppola/react-native-uuid-generator/master/media/UUIDGenerator.gif)
 
 
 ## Getting started
@@ -51,7 +55,7 @@ the native components of this library manually.
 ### Android
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import io.github.traviskn.rnuuidgenerator.RNUUIDGeneratorPackage;` to the imports at the top of the file
+  - Add `import io.github.sseppola.rnuuidgenerator.RNUUIDGeneratorPackage;` to the imports at the top of the file
   - Add `new RNUUIDGeneratorPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   ```
@@ -64,14 +68,14 @@ the native components of this library manually.
   ```
 
 ## Upgrading
-See the [changelog](https://github.com/Traviskn/react-native-uuid-generator/blob/master/CHANGELOG.md) for instructions on upgrading to the latest version.
+See the [changelog](https://github.com/sseppola/react-native-uuid-generator/blob/master/CHANGELOG.md) for instructions on upgrading to the latest version.
 
 ## Example
 Check out the example app included in the github repo to see the UUID Generator in action!
 I assume you already have the react-native-cli installed, as well as the required iOS or Android dependencies.
 
 ```
-git clone https://github.com/Traviskn/react-native-uuid-generator.git
+git clone https://github.com/sseppola/react-native-uuid-generator.git
 
 cd react-native-uuid-generator/example
 npm install
